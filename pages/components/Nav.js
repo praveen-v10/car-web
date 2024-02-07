@@ -1,6 +1,6 @@
 import React from "react";
 import { useRouter } from "next/router";
-import { navigationData } from "../data";
+import { navigationData } from "./data";
 
 export default function Nav() {
   const router = useRouter();

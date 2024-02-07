@@ -1,5 +1,5 @@
 import React from 'react'
-import { navigationData } from '../data'
+import { navigationData } from './data'
 import { FaInstagram } from "react-icons/fa6";
 
 

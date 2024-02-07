@@ -1,5 +1,5 @@
 import React from "react";
-import { weOfferData } from "../data";
+import { weOfferData } from "./data";
 import Image from "next/image";
 
 export default function WeOffer() {

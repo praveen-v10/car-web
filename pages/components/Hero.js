@@ -1,5 +1,5 @@
 import React from "react";
-import { heroData } from "../data";
+import { heroData } from "./data";
 import Header from "./Header";
 
 export default function Hero() {

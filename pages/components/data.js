@@ -1,3 +1,5 @@
+
+import React from 'react';
 import HeroImg from '../public/assets/image/hero_img_1.png';
 import WeOfferImg1 from '../public/assets/image/we_offer_img_1.png';
 import WeOfferBg1 from '../public/assets/bg/we_offer_bg_1.png';

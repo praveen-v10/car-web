@@ -1,9 +1,29 @@
 import React from "react";
 import { useRouter } from "next/router";
-import { navigationData } from "./data";
 
 export default function Nav() {
   const router = useRouter();
+
+  const navigationData = [
+    {
+        name: 'Home',
+        href: '/Home',
+    },
+
+    {
+        name: 'About us',
+        href: '#',
+    },
+    {
+        name: 'App',
+        href: '#',
+    },
+    {
+        name: 'Contact us',
+        href: '/ContactUs',
+    },
+];
+
   return (
     <ul className="flex gap-x-8">
       {navigationData.map((item, index) => (
@@ -54,7 +74,7 @@ export default function Nav() {
 //               <div className="flex cursor-pointer  flex-shrink-0">
 //                 {/*  */}
 //                 {/* <h1 className='font-Satisfy text-[32px]'>SandHut <sub className='font-Poppins text-[14px]'>Studios</sub></h1> */}
-//                 <img
+//                 <Image
 //                   src=" /assets/logo/head_logo.png"
 //                   className=" h-[100px] lg:h-[130px]"
 //                   alt=""

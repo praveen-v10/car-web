@@ -1,10 +1,28 @@
 import React from 'react'
-import { navigationData } from './data'
 import { FaInstagram } from "react-icons/fa6";
 
 
 export default function NavMobile() {
 
+  const navigationData = [
+    {
+        name: 'Home',
+        href: '/Home',
+    },
+
+    {
+        name: 'About us',
+        href: '#',
+    },
+    {
+        name: 'App',
+        href: '#',
+    },
+    {
+        name: 'Contact us',
+        href: '/ContactUs',
+    },
+];
     
   const handleCallClick = () => {
     window.location.href = `tel:${'+91 8072875342'}`;

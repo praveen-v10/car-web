@@ -3,7 +3,7 @@ import { heroData } from "./data";
 import Header from "./Header";
 
 export default function Hero() {
-  const { title, subtitle, image } = heroData;
+
 
   return (
     <section className="lg:h-[700px] py-12 max-w-7xl mx-auto">
@@ -16,7 +16,7 @@ export default function Hero() {
               data-aos="fade-down"
               data-aos-delay="200"
             >
-              {title}
+             Explore, experience, and enjoy
             </h1>
 
             <p
@@ -24,7 +24,7 @@ export default function Hero() {
               data-aos="fade-down"
               data-aos-delay="200"
             >
-              {subtitle}
+           Travel with us!
             </p>
           </div>
 

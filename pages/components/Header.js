@@ -6,6 +6,7 @@ import { CiMenuBurger } from "react-icons/ci";
 import { IoMdClose } from "react-icons/io";
 import { FaInstagram } from "react-icons/fa6";
 
+
 export default function Header() {
   const [navMobile, setNavMobile] = useState(false);
 

@@ -1,9 +1,8 @@
 import React from "react";
-import { weOfferData } from "./data";
-import Image from "next/image";
+
 
 export default function WeOffer() {
-  const { title, list } = weOfferData;
+
 
   return (
     <section className="my-[10px] max-w-7xl mx-auto lg:my-[20px]">
@@ -140,7 +139,7 @@ export default function WeOffer() {
 
 // import React from "react";
 // import { weOfferData } from "../data";
-// import Image from "next/image";
+// import img from "next/image";
 
 // export default function WeOffer() {
 //   const { title, list } = weOfferData;
@@ -154,15 +153,15 @@ export default function WeOffer() {
 
 //         <div className="grid grid-cols-1 gap-[50px] lg:grid-cols-2">
 //           {list.map((weOffer, index) => {
-//             const { image, bgImage, title, description, delay } = weOffer;
+//             const { image, bgimg, title, description, delay } = weOffer;
 //             return (
 //               <div className="w-full max-w-[530px] h-[360px] relative flex flex-col items-center justify-center lg:flex-row lg:justify-start mx-auto" key={index}>
 //                 <div className="hidden lg:flex absolute top-0 right-0 z-20">
-//                     <Image src={bgImage}  alt=""  />
+//                     <img src={bgimg}  alt=""  />
 //                     </div>
 
 //                 <div className="max-w-[120px] lg:mr-7 lg:max-w-[230px] z-20">
-//                 <Image src={image}  alt=""/>
+//                 <img src={image}  alt=""/>
 //                     </div>
 
 //                 <div> text </div>
